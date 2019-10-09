@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main4Activity">
+
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="-100dp"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="92dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-75dp"
+        android:layout_marginLeft="110dp"
+        android:text="Button"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-75dp"
+        android:layout_marginLeft="220dp"
+        android:text="Button"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+</LinearLayout>
